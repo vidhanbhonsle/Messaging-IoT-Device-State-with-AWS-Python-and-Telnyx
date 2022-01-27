@@ -11,11 +11,9 @@ An IoT use case where an IoT device sends data to the AWS cloud. And notifies an
 ## Prerequisite
  
  * Telnyx Developer Account (https://developers.telnyx.com/)
- * Code IDE or text Editor
- * [Python](https://nodejs.org/en/)
- * npm
- * Familiarity with HTML, CSS, and JavaScript
- * A basic understanding of component-based frameworks like React is helpful but not required
+ * [Python](https://nodejs.org/en/) installed
+ * [AWS](https://aws.amazon.com/) account
+ * Raspberry Pi (optional)
 
   ## Steps
 
