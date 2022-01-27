@@ -111,7 +111,6 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
         ![Rule_name_desc](/img/rule_name_desc.PNG)
         
         * Enter rule query
-    
                 ``` shell
             SELECT * from "iot"
             ```
