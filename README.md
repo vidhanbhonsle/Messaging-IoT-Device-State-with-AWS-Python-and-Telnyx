@@ -26,7 +26,7 @@ The following values need to be replaced in publishData.py and lambda_function.p
 | `TELNYX_API_KEY`       | Your [Telnyx API Key](https://portal.telnyx.com/#/app/api-keys?utm_source=referral&utm_medium=github_referral&utm_campaign=cross-site-link)              |
 | `TELNYX_PHONE_NUMBER`    | Your [Telnyx number](https://portal.telnyx.com/#/app/numbers/my-numbers?utm_source=referral&utm_medium=github_referral&utm_campaign=cross-site-link) |
 | `YOUR_PHONE_NUMBER`      | Your personal phone number                                                                                                   |
-| `AWS_END_POINT`             | Endpoint for communication with Thing using MQTT(works for HTTP too) **`AWS IoT` > `Settings`**                                                                                             |
+| `AWS_END_POINT`             | Endpoint for communication with Thing using MQTT(works for HTTP too)                                                                                              |
 | `CLIENT_ID` | The ID of the Thing created                          |
 | `THING_NAME` | The name of the Thing |
 | `THING_NAME.cert.pem` | Downloaded from the connection kit |
