@@ -19,7 +19,7 @@ An IoT use case where an IoT device sends data to the AWS cloud. And notifies an
 
   ## Steps
 
-The following values need to be replaced in publishData.py and lambda_function.py files
+The following values need to be replaced in [publishData.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/publishData.py) and [lambda_function.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/lambda_function.py) files
 
 | Variable               | Description                                                                                                                                              |
 |:-----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -67,5 +67,44 @@ Sign up for Telnyx account, obtain a number with SMS capabilities and configure 
  5. Acquire Telnyx API key
     > Go to the [API Keys](https://portal.telnyx.com/#/app/api-keys??utm_source=referral&utm_medium=github_referral&utm_campaign=cross-site-link) page and copy the API Key for the future steps. Incase there is no API Key, then create one.
 
+</p></details>
+___
+
+### Step 2: AWS IoT and Lambda Setup
+Svelte provides a different approach to building web apps than some of the other frameworks. While frameworks like React and Vue do the bulk of their work in the user's browser while the app is running, Svelte shifts that work into a compile step that happens only when you build your app, producing highly-optimized vanilla JavaScript.
+
+<details>
+<summary><strong>Steps to follow</strong> (click to expand)</summary><p>
+
+ 1. Create Svelte application skeleton
+    > Open terminal/command prompt or code editor
+    
+    > Run following command
+     ``` shell
+    npx degit sveltejs/template YOUR_PROJECT_NAME
+    ``` 
+    degit is a project scaffolding tool to create skeleton. This will create a basic Svelte application code structure under the directory ‘YOUR_PROJET_NAME’.
+
+ 2. Install Required Dependencies
+    > Please browse to YOUR_PROJECT_NAME directory and use the following command to install the required dependencies.
+     ``` shell
+    npm install # or yarn install
+    ``` 
+    It may take while to isntall the dependencies
+
+ 3. Run the skeleton app
+    
+    > Use the following command to run the skeleton app locally:
+    ``` shell
+    npm run dev # or yarn dev
+    ```
+
+    > Now you should see the message in your command prompt confirming the application is ready, and it is running locally on [<https://localhost:8080>]
+    
+    <img src='./img/svelte_link.PNG' width="800"/>
+
+    > Access the app on the above mentioned URL. You will see the following message from your Svelte app:
+
+    <img src='./img/svelte_skeleton.png' width="800"/>
 </p></details>
 ___
