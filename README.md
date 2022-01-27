@@ -34,7 +34,7 @@ The following values need to be replaced in publishData.py and lambda_function.p
 
  ### Step 1: Telnyx Setup 
 Sign up for Telnyx account, obtain a number with SMS capabilities and configure the number for messaging.
-If you already have a Telnyx number with messaging enabled you do not need to exapnd this step. 
+> If you already have a Telnyx number with messaging enabled you do not need to expand this step 
 <details>
 <summary><strong>Steps to follow</strong> (click to expand)</summary><p>
 
