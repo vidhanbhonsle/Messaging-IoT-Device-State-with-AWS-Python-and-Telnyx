@@ -25,9 +25,9 @@ An IoT use case where an IoT device sends data to the AWS cloud. And notifies an
 
 </div>
 
-1. Raspberry Pi(a Python code) sends MQTT data to AWS 
-2. AWS rules forwards data to AWS Lambda
-3. AWS Lambda function sends the message tou your phone when condition is satisfied 
+1. Raspberry Pi (a Python code) sends MQTT data to AWS IoT 
+2. AWS IoT rule forwards data to AWS Lambda
+3. AWS Lambda function (Python code) sends the message to your phone when condition is satisfied 
   
 ## Steps
 
