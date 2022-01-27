@@ -133,7 +133,57 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
 
         ![Rule_enable](/img/rule_enable.PNG)
 
+</p></details>
+___
+
+### Step 3: Python code for Raspberry Pi (IoT Device)
+Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHONE_NUMBER` and have a messaging profile associated with `TELNYX_PHONE_NUMBER`.
+
+<details>
+<summary><strong>Steps to follow</strong> (click to expand)</summary><p>
+
+ 1. Create AWS IoT Thing and download connection kit for Python
+    * You can find steps [here](https://www.youtube.com/watch?v=6w9a6y_-T2o)
+        * You need `root-CA.crt`, `THING_NAME.cert.pem` and `THING_NAME.private.key` from above
     
+ 2. Create [Lambda](https://aws.amazon.com/lambda/) function
+    * Follow the steps mentioned [here]() for creating Python based lambda function.
+    * Copy and paste the code from [lambda_function.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/lambda_function.py) file into the AWS consoles `lambda_function.py` file
+    * Substitute below mentioned values with the values acquired from `Step One` - 
+        * `TELNYX_PHONE_NUMBER`, 
+        * `YOUR_PHONE_NUMBER` and 
+        * `TELNYX_API_KEY` 
+    * You can test the function with test feature in the menu of Lambda.
+ 
+ 3. Connect AWS IoT rule with AWS Lambda
+    * Create a rule
+        * Go to the AWS IoT Core Console, and from the left menu, click on the ‘Act’ dropdown, and click on ‘Rules’. Click on 'Create'
+        * Provide a suitable name and description
+
+        ![Rule_name_desc](/img/rule_name_desc.PNG)
+        
+        * Enter rule query
+            ``` mysql
+                SELECT * from "iot"    
+            ```
+
+        ![Rule_query](/img/rule_query.PNG)
+
+        * Next click on `Add Action`.
+        
+        ![Rule_add_action](/img/rule_add_action.PNG)
+        
+        * Out of the list of actions that opens up, select ‘Send a message to a Lambda function’, and then click on ‘Configure action’. 
+
+        ![Rule_add_lambda](/img/rule_add_lambda.PNG)
+
+        * Select the lambda function you created and click `Add Action`.
+
+        * Finally, click on `Create Rule` to complete the step
+
+        * Lastly, enable the rule
+
+        ![Rule_enable](/img/rule_enable.PNG)
 
 </p></details>
 ___
