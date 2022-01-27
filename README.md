@@ -17,6 +17,13 @@ An IoT use case where an IoT device sends data to the AWS cloud. And notifies an
  * [AWS](https://aws.amazon.com/) account
  * Raspberry Pi (optional)
 
+## Architecture
+
+<div align="center">
+
+![IoT](/img/architecture.PNG)
+
+</div>
   ## Steps
 
 The following values need to be replaced in [publishData.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/publishData.py) and [lambda_function.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/lambda_function.py) files
