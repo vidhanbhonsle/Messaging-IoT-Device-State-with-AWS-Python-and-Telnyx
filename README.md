@@ -137,25 +137,17 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
 ___
 
 ### Step 3: Python code for Raspberry Pi (IoT Device)
-Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHONE_NUMBER` and have a messaging profile associated with `TELNYX_PHONE_NUMBER`.
+Once you have completed AWS IoT rule and Lambda function, you need to work on sending the IoT data to AWS part
 
 <details>
 <summary><strong>Steps to follow</strong> (click to expand)</summary><p>
 
- 1. Create AWS IoT Thing and download connection kit for Python
-    * You can find steps [here](https://www.youtube.com/watch?v=6w9a6y_-T2o)
-        * You need `root-CA.crt`, `THING_NAME.cert.pem` and `THING_NAME.private.key` from above
-    
- 2. Create [Lambda](https://aws.amazon.com/lambda/) function
-    * Follow the steps mentioned [here]() for creating Python based lambda function.
-    * Copy and paste the code from [lambda_function.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/lambda_function.py) file into the AWS consoles `lambda_function.py` file
-    * Substitute below mentioned values with the values acquired from `Step One` - 
-        * `TELNYX_PHONE_NUMBER`, 
-        * `YOUR_PHONE_NUMBER` and 
-        * `TELNYX_API_KEY` 
-    * You can test the function with test feature in the menu of Lambda.
- 
- 3. Connect AWS IoT rule with AWS Lambda
+ 1. Copy and paste the code from [publishData.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/publishData.py) into your own Python file (name it as you wish!)
+    * Keep the files acquired from `Step One` in the same location as your Python file. These are the files -
+        * `THING_NAME.cert.pem` file
+        * `THING_NAME.private.key` file
+        * `root-CA.crt` file
+    * Mention the files in Python code too
 </p></details>
 
 ___
