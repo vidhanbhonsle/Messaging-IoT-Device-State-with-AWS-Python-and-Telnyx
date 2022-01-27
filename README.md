@@ -19,13 +19,13 @@ An IoT use case where an IoT device sends data to the AWS cloud. And notifies an
 
   ## Steps
 
-The following environmental variables need to be set
+The following values need to be replaced in publishData.py and lambda_function.py files
 
 | Variable               | Description                                                                                                                                              |
 |:-----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `TELNYX_API_KEY`       | Your [Telnyx API Key](https://portal.telnyx.com/#/app/api-keys?utm_source=referral&utm_medium=github_referral&utm_campaign=cross-site-link)              |
 | `TELNYX_NUMBER`    | Your [Telnyx Public Key](https://portal.telnyx.com/#/app/account/public-key?utm_source=referral&utm_medium=github_referral&utm_campaign=cross-site-link) |
-| `TELNYX_NUMBER`      | **Defaults to `8000`** The port the app will be served                                                                                                   |
+| `YOUR_NUMBER`      | **Defaults to `8000`** The port the app will be served                                                                                                   |
 | `AWS_END_POINT`             | Your **NGROK DOMAIN** like `"http://your-url.ngrok.io"`                                                                                                  |
 | `CLIENT_ID` | The ID of the [call-control-connection](https://portal.telnyx.com/#/app/call-control/applications) to use for placing the calls                          |
 | `THING_NAME` | The path to your google applications file |
