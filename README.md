@@ -86,13 +86,12 @@ ___
 
 ### Step 2: AWS IoT and Lambda Setup
 Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHONE_NUMBER` and have a messaging profile associated with `TELNYX_PHONE_NUMBER`.
- 
 
 <details>
 <summary><strong>Steps to follow</strong> (click to expand)</summary><p>
 
- 1. Create Svelte application skeleton
-    > Open terminal/command prompt or code editor
+ 1. Create AWS IoT Thing and download connection kit for Python
+    > You can find steps [here]()
     
     > Run following command
      ``` shell
