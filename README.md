@@ -80,8 +80,8 @@ Sign up for Telnyx account, obtain a number with SMS capabilities and configure 
     
  5. Acquire Telnyx API key
     > Go to the [API Keys](https://portal.telnyx.com/#/app/api-keys??utm_source=referral&utm_medium=github_referral&utm_campaign=cross-site-link) page and copy the API Key for the future steps. Incase there is no API Key, then create one.
-
 </p></details>
+
 ___
 
 ### Step 2: AWS IoT and Lambda Setup
@@ -132,8 +132,8 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
         * Lastly, enable the rule
 
         ![Rule_enable](/img/rule_enable.PNG)
-
 </p></details>
+
 ___
 
 ### Step 3: Python code for Raspberry Pi (IoT Device)
