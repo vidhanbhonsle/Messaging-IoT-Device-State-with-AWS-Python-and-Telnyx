@@ -73,7 +73,7 @@ Sign up for Telnyx account, obtain a number with SMS capabilities and configure 
 ___
 
 ### Step 2: AWS IoT and Lambda Setup
-Svelte provides a different approach to building web apps than some of the other frameworks. While frameworks like React and Vue do the bulk of their work in the user's browser while the app is running, Svelte shifts that work into a compile step that happens only when you build your app, producing highly-optimized vanilla JavaScript.
+Before moving forward, make sure you have acquired `TELNYX_API_KEY` and `TELNYX_PHONE_NUMBER`. Svelte provides a different approach to building web apps than some of the other frameworks. While frameworks like React and Vue do the bulk of their work in the user's browser while the app is running, Svelte shifts that work into a compile step that happens only when you build your app, producing highly-optimized vanilla JavaScript.
 
 <details>
 <summary><strong>Steps to follow</strong> (click to expand)</summary><p>
