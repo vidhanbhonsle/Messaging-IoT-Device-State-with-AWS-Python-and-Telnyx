@@ -156,34 +156,6 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
     * You can test the function with test feature in the menu of Lambda.
  
  3. Connect AWS IoT rule with AWS Lambda
-    * Create a rule
-        * Go to the AWS IoT Core Console, and from the left menu, click on the ‘Act’ dropdown, and click on ‘Rules’. Click on 'Create'
-        * Provide a suitable name and description
-
-        ![Rule_name_desc](/img/rule_name_desc.PNG)
-        
-        * Enter rule query
-            ``` mysql
-                SELECT * from "iot"    
-            ```
-
-        ![Rule_query](/img/rule_query.PNG)
-
-        * Next click on `Add Action`.
-        
-        ![Rule_add_action](/img/rule_add_action.PNG)
-        
-        * Out of the list of actions that opens up, select ‘Send a message to a Lambda function’, and then click on ‘Configure action’. 
-
-        ![Rule_add_lambda](/img/rule_add_lambda.PNG)
-
-        * Select the lambda function you created and click `Add Action`.
-
-        * Finally, click on `Create Rule` to complete the step
-
-        * Lastly, enable the rule
-
-        ![Rule_enable](/img/rule_enable.PNG)
-
 </p></details>
+
 ___
