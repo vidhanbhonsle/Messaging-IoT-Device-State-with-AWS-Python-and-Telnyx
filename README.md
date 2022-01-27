@@ -91,16 +91,11 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
 <summary><strong>Steps to follow</strong> (click to expand)</summary><p>
 
  1. Create AWS IoT Thing and download connection kit for Python
-    > You can find steps [here]()
+    * You can find steps [here](https://www.youtube.com/watch?v=6w9a6y_-T2o)
+        * You need `root-CA.crt`, `THING_NAME.cert.pem` and `THING_NAME.private.key` from above
     
-    > Run following command
-     ``` shell
-    npx degit sveltejs/template YOUR_PROJECT_NAME
-    ``` 
-    degit is a project scaffolding tool to create skeleton. This will create a basic Svelte application code structure under the directory ‘YOUR_PROJET_NAME’.
-
- 2. Install Required Dependencies
-    > Please browse to YOUR_PROJECT_NAME directory and use the following command to install the required dependencies.
+ 2. Create Lambda function and connect with AWS IoT rules
+    * Please browse to YOUR_PROJECT_NAME directory and use the following command to install the required dependencies.
      ``` shell
     npm install # or yarn install
     ``` 
