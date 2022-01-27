@@ -4,7 +4,7 @@
 
 ![Telnyx](/imgs/logo-dark.png)
 
-An IoT use case where an IoT device sends data to the AWS cloud and in case of anomaly notifies the concerned individuals using Telnyx messaging.
+An IoT use case where an IoT device sends data to the AWS cloud. And notifies anomaly to concerned individuals using Telnyx messaging.
 
 </div>
 
