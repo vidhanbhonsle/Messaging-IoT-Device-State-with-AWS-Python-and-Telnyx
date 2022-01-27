@@ -32,6 +32,8 @@ The following values need to be replaced in [publishData.py](https://github.com/
 | `THING_NAME.cert.pem` | Downloaded from the connection kit |
 | `THING_NAME.private.key` | Downloaded from the connection kit |
 
+The values can be acquired with the help of following steps -
+
  ### Step 1: Telnyx Setup 
 Sign up for Telnyx account, obtain a number with SMS capabilities and configure the number for messaging.
 > If you already have a Telnyx number with messaging enabled, move to `Step 2` 
