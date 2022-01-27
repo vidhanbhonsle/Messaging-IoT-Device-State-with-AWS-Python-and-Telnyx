@@ -110,7 +110,11 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
 
         ![Rule_name_desc](/img/rule_name_desc.PNG)
         
-        * Enter rule query as shown in the below image
+        * Enter rule query
+    
+        ``` shell
+    SELECT * from "iot"
+    ```
 
         ![Rule_query](/img/rule_query.PNG)
 
@@ -122,17 +126,6 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
 
         ![Rule_add_lambda](/img/rule_add_lambda.PNG)
     
-    > Use the following command to run the skeleton app locally:
-    ``` shell
-    npm run dev # or yarn dev
-    ```
 
-    > Now you should see the message in your command prompt confirming the application is ready, and it is running locally on [<https://localhost:8080>]
-    
-    <img src='./img/svelte_link.PNG' width="800"/>
-
-    > Access the app on the above mentioned URL. You will see the following message from your Svelte app:
-
-    <img src='./img/svelte_skeleton.png' width="800"/>
 </p></details>
 ___
