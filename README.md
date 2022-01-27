@@ -5,6 +5,7 @@
 An IoT simple web based application for sending SMS using [Svelte framework](https://svelte.dev/) and [Telnyx API](https://telnyx.com).
 
 </div>
+
 ## Prerequisite
  
  * Telnyx Developer Account (https://developers.telnyx.com/)
