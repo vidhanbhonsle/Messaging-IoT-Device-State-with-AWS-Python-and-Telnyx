@@ -9,8 +9,8 @@ def lambda_handler(event, context):
     if temp_data > 22.0:
       conn = http.client.HTTPSConnection("api.telnyx.com")
       payload = json.dumps({
-      "from": "TELNYX_NUMBER",
-      "to": "YOUR_NUMBER",
+      "from": "TELNYX_PHONE_NUMBER",
+      "to": "YOUR_PHONE_NUMBER",
       "text": "The temperature is "+ str(temp_data) + " degree celsius"
       })
       headers = {

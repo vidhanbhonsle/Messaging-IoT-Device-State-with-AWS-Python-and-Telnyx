@@ -24,13 +24,13 @@ The following values need to be replaced in publishData.py and lambda_function.p
 | Variable               | Description                                                                                                                                              |
 |:-----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `TELNYX_API_KEY`       | Your [Telnyx API Key](https://portal.telnyx.com/#/app/api-keys?utm_source=referral&utm_medium=github_referral&utm_campaign=cross-site-link)              |
-| `TELNYX_NUMBER`    | Your [Telnyx Public Key](https://portal.telnyx.com/#/app/account/public-key?utm_source=referral&utm_medium=github_referral&utm_campaign=cross-site-link) |
-| `YOUR_NUMBER`      | **Defaults to `8000`** The port the app will be served                                                                                                   |
+| `TELNYX_PHONE_NUMBER`    | Your [Telnyx number](https://portal.telnyx.com/#/app/numbers/my-numbers?utm_source=referral&utm_medium=github_referral&utm_campaign=cross-site-link) |
+| `YOUR_PHONE_NUMBER`      | Your personal phone number                                                                                                   |
 | `AWS_END_POINT`             | Your **NGROK DOMAIN** like `"http://your-url.ngrok.io"`                                                                                                  |
-| `CLIENT_ID` | The ID of the [call-control-connection](https://portal.telnyx.com/#/app/call-control/applications) to use for placing the calls                          |
-| `THING_NAME` | The path to your google applications file |
-| `THING_NAME.cert.pem` | The path to your google applications file |
-| `THING_NAME.private.key` | The path to your google applications file |
+| `CLIENT_ID` | The ID of the Thing created                          |
+| `THING_NAME` | The name of the Thing |
+| `THING_NAME.cert.pem` | Downloaded from the connection kit |
+| `THING_NAME.private.key` | Downloaded from the connection kit |
 
  ### Step 1: Telnyx Setup 
  
