@@ -107,12 +107,20 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
     * Create a rule
         * Go to the AWS IoT Core Console, and from the left menu, click on the ‘Act’ dropdown, and click on ‘Rules’. Click on 'Create'
         * Provide a suitable name and description
-        
-        ![Rule](/img/rule_name_desc.PNG)
-        * 
-        
 
+        ![Rule_name_desc](/img/rule_name_desc.PNG)
+        
+        * Enter rule query as shown in the below image
 
+        ![Rule_query](/img/rule_query.PNG)
+
+        * Next click on `Add Action`.
+        
+        ![Rule_add_action](/img/rule_add_action.PNG)
+        
+        * Out of the list of actions that opens up, select ‘Send a message to a Lambda function’, and then click on ‘Configure action’. 
+
+        ![Rule_add_lambda](/img/rule_add_lambda.PNG)
     
     > Use the following command to run the skeleton app locally:
     ``` shell
