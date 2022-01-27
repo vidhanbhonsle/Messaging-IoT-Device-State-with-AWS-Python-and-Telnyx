@@ -15,6 +15,6 @@ def lambda_handler(event, context):
       })
       headers = {
       'Content-Type': 'application/json',
-      'Authorization': 'YOUR_API_KEY'
+      'Authorization': 'TELNYX_API_KEY'
       }
       conn.request("POST", "/v2/messages", payload, headers)
