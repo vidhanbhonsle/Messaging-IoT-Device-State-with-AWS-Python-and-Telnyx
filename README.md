@@ -124,6 +124,15 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
         * Out of the list of actions that opens up, select ‘Send a message to a Lambda function’, and then click on ‘Configure action’. 
 
         ![Rule_add_lambda](/img/rule_add_lambda.PNG)
+
+        * Select the lambda function you created and click `Add Action`.
+
+        * Finally, click on `Create Rule` to complete the step
+
+        * Lastly, enable the rule
+
+        ![Rule_enable](/img/rule_enable.PNG)
+
     
 
 </p></details>
