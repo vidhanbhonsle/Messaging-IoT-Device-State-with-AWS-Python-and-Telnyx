@@ -94,13 +94,14 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
     * You can find steps [here](https://www.youtube.com/watch?v=6w9a6y_-T2o)
         * You need `root-CA.crt`, `THING_NAME.cert.pem` and `THING_NAME.private.key` from above
     
- 2. Create Lambda function and connect with AWS IoT rules
-    * Please browse to YOUR_PROJECT_NAME directory and use the following command to install the required dependencies.
-     ``` shell
-    npm install # or yarn install
-    ``` 
-    It may take while to isntall the dependencies
-
+ 2. Create Lambda function
+    * Follow the steps mentioned [here]() for creating Python based lambda function.
+    * Copy and paste the code from [lambda_function.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/lambda_function.py) file into the AWS consoles `lambda_function.py` file
+    * Provide the values from `Step One` to these fields - 
+        * `TELNYX_PHONE_NUMBER`, 
+        * `YOUR_PHONE_NUMBER` and 
+        * `TELNYX_API_KEY` 
+     
  3. Run the skeleton app
     
     > Use the following command to run the skeleton app locally:
