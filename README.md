@@ -24,7 +24,8 @@ An IoT use case where an IoT device sends data to the AWS cloud. And notifies an
 ![IoT](/img/architecture.PNG)
 
 </div>
-  ## Steps
+  
+## Steps
 
 The following values need to be replaced in [publishData.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/publishData.py) and [lambda_function.py](https://github.com/vidhanbhonsle/Telnyx_messaging_AWS_IoT_Lambda/blob/main/lambda_function.py) files
 
