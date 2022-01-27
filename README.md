@@ -113,7 +113,7 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
         * Enter rule query
             ``` mysql
                 SELECT * from "iot"    
-                ```
+            ```
 
         ![Rule_query](/img/rule_query.PNG)
 
