@@ -1,8 +1,8 @@
 <div align="center">
 
-# Alert on the state of IoT Device or Machine
+# Messaging the state of IoT Device using AWS and Python
 
-An IoT simple web based application for sending SMS using [Svelte framework](https://svelte.dev/) and [Telnyx API](https://telnyx.com).
+An IoT use case where an IoT device sends data to the AWS cloud and in case of anomaly notifies the concerned individuals using Telnyx messaging.
 
 </div>
 
