@@ -106,7 +106,8 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
  3. Connect AWS IoT rule with AWS Lambda
     * Create a rule
         * Go to the AWS IoT Core Console, and from the left menu, click on the ‘Act’ dropdown, and click on ‘Rules’. Click on 'Create'
-        * Provide a suitable name and dscription
+        * Provide a suitable name and description
+        
         ![Rule](/img/rule_name_desc.PNG)
         * 
         
