@@ -24,6 +24,10 @@ An IoT use case where an IoT device sends data to the AWS cloud. And notifies an
 ![IoT](/img/architecture.PNG)
 
 </div>
+
+1. Raspberry Pi(a Python code) sends MQTT data to AWS 
+2. AWS rules forwards data to AWS Lambda
+3. AWS Lambda function sends the message tou your phone when condition is satisfied 
   
 ## Steps
 
@@ -81,7 +85,7 @@ Sign up for Telnyx account, obtain a number with SMS capabilities and configure 
 ___
 
 ### Step 2: AWS IoT and Lambda Setup
-Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHONE_NUMBER` and have a messaging profile associated with TELNYX_PHONE_NUMBER.
+Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHONE_NUMBER` and have a messaging profile associated with `TELNYX_PHONE_NUMBER`.
  
 
 <details>
