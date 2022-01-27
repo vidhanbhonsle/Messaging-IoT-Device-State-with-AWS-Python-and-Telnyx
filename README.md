@@ -1,6 +1,6 @@
 <div align="center">
 
-# Messaging IoT Device state to user with AWS, Python and Telnyx
+# Messaging IoT Device state using AWS, Python and Telnyx
 
 ![Telnyx](/imgs/logo-dark.png)
 
