@@ -1,6 +1,7 @@
-# Telnyx_messaging_AWS_IoT_Lambda
+<div align="center">
+# Alert on the state of IoT Device or Machine
 An IoT simple web based application for sending SMS using [Svelte framework](https://svelte.dev/) and [Telnyx API](https://telnyx.com).
-
+</div>
 ## Prerequisite
  
  * Telnyx Developer Account (https://developers.telnyx.com/)
