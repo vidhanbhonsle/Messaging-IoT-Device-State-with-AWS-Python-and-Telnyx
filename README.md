@@ -147,7 +147,13 @@ Once you have completed AWS IoT rule and Lambda function, you need to work on se
         * `THING_NAME.cert.pem` file
         * `THING_NAME.private.key` file
         * `root-CA.crt` file
-    * Mention the files in Python code too
+    * Substitute the following values with your own in Python code 
+        * `AWS_END_POINT` 
+        * `CLIENT_ID`
+        * `THING_NAME`
+        * `THING_NAME.cert.pem`
+        * `THING_NAME.private.key`
 </p></details>
 
+## Run the Python code and you will get a message on your number if the value exceeds 24!
 ___
