@@ -103,7 +103,15 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
         * `TELNYX_API_KEY` 
     * You can test the function with test feature in the menu of Lambda.
  
- 3. Run the skeleton app
+ 3. Connect AWS IoT rule with AWS Lambda
+    * Create a rule
+        * Go to the AWS IoT Core Console, and from the left menu, click on the ‘Act’ dropdown, and click on ‘Rules’. Click on 'Create'
+        * Provide a suitable name and dscription
+        ![Rule](/img/rule_name_desc.PNG)
+        * 
+        
+
+
     
     > Use the following command to run the skeleton app locally:
     ``` shell
