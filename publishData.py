@@ -33,7 +33,7 @@ mqttc.connect(awshost, awsport, keepalive=60)
 
 mqttc.loop_start()
 
-# The code block is a infinite loop generating temperature value between 20 and 25. You can replace dummy data with your own sensor value
+# The code block is an infinite loop generating temperature values between 20 and 25. You can replace dummy data with your own sensor value
 while 1==1:
     sleep(10)
     if connflag == True:
