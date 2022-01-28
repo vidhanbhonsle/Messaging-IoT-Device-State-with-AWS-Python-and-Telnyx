@@ -155,5 +155,6 @@ Once you have completed AWS IoT rule and Lambda function, you need to work on se
         * `THING_NAME.private.key`
 </p></details>
 
-`Run the Python code and you will get a message on your number if the value exceeds 24!`
 ___
+
+`Run the Python code and you will get a message on your number if the value exceeds 24!`
