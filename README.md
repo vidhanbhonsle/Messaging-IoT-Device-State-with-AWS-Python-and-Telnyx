@@ -157,4 +157,8 @@ Once you have completed AWS IoT rule and Lambda function, you need to work on se
 
 ___
 
-`Run the Python code and you will get a message on your number if the value exceeds 24!`
+<div align="center">
+ 
+## `Run the Python code and you will get a message on your number if the value exceeds 24!`
+
+</div> 
