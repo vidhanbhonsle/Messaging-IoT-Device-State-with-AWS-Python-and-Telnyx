@@ -137,7 +137,8 @@ Before moving forward, make sure you have acquired `TELNYX_API_KEY`, `TELNYX_PHO
 ___
 
 ### Step 3: Python code for Raspberry Pi (IoT Device)
-Once you have completed AWS IoT rule and Lambda function, you need to work on sending the IoT data to AWS part
+Once you have completed AWS IoT rule and Lambda function, you need to work on sending the IoT data to AWS part. 
+`You can run this code on any machine with Puthon installed`
 
 <details>
 <summary><strong>Steps to follow</strong> (click to expand)</summary><p>
