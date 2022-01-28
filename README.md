@@ -159,6 +159,6 @@ ___
 
 <div align="center">
  
-## `Run the Python code and you will get a message on your number if the value exceeds 24!`
+### `Run the Python code and you will get a message on your number if the value exceeds 24!`
 
 </div> 
